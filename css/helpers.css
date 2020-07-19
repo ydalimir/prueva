@@ -1,0 +1,63 @@
+/************** bootstrap styles ***********/
+
+.bg-dark {
+    background-color: var(--main-modal-color)!important;
+}
+
+.navbar-brand img {
+    width: auto;
+    height: var(--logo-height);
+    padding: var(--logo-spacing);
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    outline: 0;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    transition: all .3s ease;
+}
+
+.navbar-dark .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 81, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    display: block;
+    color: var( --main-color);
+    font-size: 1.15rem;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--bg-color);
+}
+
+.bg-success {
+    background-color: var(--main-segundario) !important;
+}
+
+.bg-success:hover {
+    background-color: var(--main-segundario) !important;
+    opacity: .85;
+    transition: all .3s ease;
+}
+
+.text-success {
+    color: var(--main-segundario) !important;
+}
+
+.card {
+    background: var(--action-color-mision) !important;
+}
+
+.row {
+    margin-right: 0px, !important;
+}
